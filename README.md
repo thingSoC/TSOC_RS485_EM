@@ -35,7 +35,7 @@ including a variety of analog sensors, such as Temperature, Wind, Pressure, Air 
 ---------------------------------------
 ## 3D Model (Sketchup)
 
-![thingSoC TSOC_RS485_EM](http://thingsoc.github.io/img/projects/thingSoC/thingSoC_analog.png)
+![thingSoC TSOC_RS485_EM](http://thingsoc.github.io/img/projects/TOSC_RS485_EM/TSOC_RS485_EM_model.png)
 
 
 ---------------------------------------
