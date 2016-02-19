@@ -1,5 +1,5 @@
 # TSOC_RS485_EM
-**TSOC_RS485_EM** is a Modbus RTU (RS-485) compliant, Embedded Slave Module for thingSoC.
+**TSOC_RS485_EM** is a ATMEGA328 based board with integrated RS485 driver, an Embedded Slave Module for thingSoC.
 
 
 The **TSOC_RS485_EM** connects any thingSoC or Mikrobus module to an RS485 compatible slave interface,
