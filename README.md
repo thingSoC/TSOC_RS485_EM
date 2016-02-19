@@ -46,11 +46,11 @@ including a variety of analog sensors, such as Temperature, Wind, Pressure, Air 
 ---------------------------------------
 ## Documentation Index <a name="documentation_index"/>
 
-[TSOC_RS485_EM Quick Start Guide](https://github.com/PatternAgents/TSOC_RS485_EM/)
+[TSOC_RS485_EM Quick Start Guide](https://github.com/thingSOC/TSOC_RS485_EM/)
 
-[TSOC_RS485_EM User Guide](https://github.com/PatternAgents/TSOC_RS485_EM/)
+[TSOC_RS485_EM User Guide](https://github.com/thingSOC/TSOC_RS485_EM/)
 
-[TSOC_RS485_EM Theory of Operation](https://github.com/PatternAgents/TSOC_RS485_EM/)
+[TSOC_RS485_EM Theory of Operation](https://github.com/thingSOC/TSOC_RS485_EM/)
 
 [thingSoC Organization Website](http://thingSoC.github.io)
 
