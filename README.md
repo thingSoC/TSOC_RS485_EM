@@ -13,10 +13,9 @@ including a variety of analog sensors, such as Temperature, Wind, Pressure, Air 
 * [thingSoC Compliant Module](http://www.thingsoc.com)
 * [Mikrobus Compatible Module](http://www.mikroe.com/mikrobus/) 
 * [Modbus](http://www.modbus.org/specs.php) Compliant Slave Interface
-* [12 Volt](https://en.wikipedia.org/wiki/Modbus) Nominal Power Input with ESD and OV/OC protections
+* [5 Volt](https://en.wikipedia.org/wiki/Modbus) Nominal Power Input with ESD and OV/OC protections
 * [RGB Color LED for status](http://media.digikey.com/pdf/Data%20Sheets/CREE%20Power/CLV1A-FKB_Rev5.pdf)
-* Supports Six (6) Analog  Inputs  (ADC) at 12 bit Sampling Resolution
-* Supports Two (2) Analog  Outputs (DAC) at 7 bit Resolution
+* Supports Six (6) Analog  Inputs  (ADC) 
 * Supports Six (6) Digital Outputs (3.3V)
 * Supports Six (2) Digital Inputs  (3.3V)
 * Supports Remote I2C Interface
@@ -42,8 +41,7 @@ including a variety of analog sensors, such as Temperature, Wind, Pressure, Air 
 ---------------------------------------
 ## Project Status
 
-* 01/07/2016 : Initial Design Partitioning Completed (Rev 0.1)</li>
-* 01/16/2016 : Initial PCB design floorplanning</li>
+* 02/18/2016 : Initial Design Release for PCB fab</li>
 
 ---------------------------------------
 ## Documentation Index <a name="documentation_index"/>
