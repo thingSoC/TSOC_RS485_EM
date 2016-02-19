@@ -1,0 +1,20 @@
+[Eagle]
+Version="06 06 00"
+Platform="Windows"
+Serial="700CBCE2DD-LSR-WLM-1CS"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="hardware/TSOC_RS485_EM.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="184 -986 783 -587"
+State=2
+Number=0
+
+[Desktop]
+Screen="1920 1980"
+Window="Win_1"
