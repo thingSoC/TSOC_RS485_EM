@@ -15128,9 +15128,14 @@ Protection</text>
 <text x="157.48" y="190.5" size="2.54" layer="91" font="vector" ratio="15" rot="R180">ThingSoC Base
 (or Expansion)
 Board Selection</text>
-<text x="363.22" y="383.54" size="2.54" layer="91" font="vector" ratio="15" rot="R180">ThingSoC Base
-(or Expansion)
-Board Selection</text>
+<text x="195.58" y="25.4" size="2.54" layer="91" font="vector" ratio="15">thingSoC Reference Design
+Open Source Sockets for IoT</text>
+<text x="195.58" y="243.84" size="2.54" layer="91" font="vector" ratio="15">thingSoC Reference Design
+Open Source Sockets for IoT</text>
+<text x="477.52" y="243.84" size="2.54" layer="91" font="vector" ratio="15">thingSoC Reference Design
+Open Source Sockets for IoT</text>
+<text x="477.52" y="25.4" size="2.54" layer="91" font="vector" ratio="15">thingSoC Reference Design
+Open Source Sockets for IoT</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$2" x="172.72" y="0"/>

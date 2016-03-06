@@ -1,28 +1,26 @@
-Partlist exported from U:/PatternAgents/eagle/TSOC_Modules/TSOC_RS485_EM/TSOC_RS485_EM/hardware/TSOC_RS485_EM_gerbers/TSOC_RS485_EM.sch at 2/17/2016 3:02:04 PM
+Partlist exported from TSOC_RS485_EM.sch
 
-Qty Value                  Device                 Package               Parts                          Description                                            
-4                          LED0603                LED-0603              LED_A2, LED_A3, LED_D7, LED_D8 LEDs                                                   
-1                          M04SCREW               SCREWTERMINAL-3.5MM-4 RS-1                           Header 4                                               
-6   0.1uF                  CAP0402-CAP            0402-CAP              C1, C3, C4, C5, C6, C9         Capacitor                                              
-1   100                    RESISTOR0402           0402-RES              R7                             Resistor                                               
-2   10K                    RESISTOR0402           0402-RES              R3, R4                         Resistor                                               
-1   120                    RESISTOR0402           0402-RES              RTERM                          Resistor                                               
-6   1K                     RESISTOR0402           0402-RES              R1, R2, R5, R6, R9, R13        Resistor                                               
-2   22uF                   CPOL-EUSMCB            SMC_B                 C2, C7                         POLARIZED CAPACITOR, European symbol                   
-1   470pF                  CAP0402-CAP            0402-CAP              C8                             Capacitor                                              
-3   4K7                    RESISTOR0402           0402-RES              R8, R11, R12                   Resistor                                               
-1   6K8                    RESISTOR0402           0402-RES              R10                            Resistor                                               
-1   ATMEGA328              ATMEGA168              TQFP32-08             U3                                                                                    
-2   DNP                    RESISTOR0402           0402-RES              R100, R101                     Resistor                                               
-1   FDC6420C               FDC6420C               SOT95P280X110-6N      Q2                             N and P Channel Power Trench MOSFETs                   
-1   JMP-2-NC               JMP-2-NC               JMP-2-NC              SJ2                            Two Terminal Jumper - Normally Closed                  
-1   JMP-3-1_2              JMP-3-1_2              JMP-3-1_2             SJ1                            Three Terminal Jumper - 1 & 2 Connected                
-1   MIC5219 3.3V           V_REG_MIC52193.3V      SOT23-5               U2                             V_REG MIC5219                                          
-1   MOSFET-NCHANNELAO3404A MOSFET-NCHANNELAO3404A SOT23-3               Q1                             Common NMOSFET Parts                                   
-1   NCP361SNT1G            NCP361SNT1G            SOP95P275X110-5N      U4                             USB Positive Overvoltage Protection Controller         
-1   OSHW_LOGO_SYMM         OSHW_LOGO_SYMM         OSHW_LOGO_MED_SYM     U$5                            OSHW_LOGO_SYM                                          
-1   RESONATORSMD           RESONATORSMD           RESONATOR-SMD         X1                             Resonator                                              
-1   ST1480ACSOIC           ST1480ACSOIC           SO08                  U1                             ST Microelectronics ST1480AC RS-485/RS-422 Transceiver 
-1   TSOC-32-BB             TSOC-32-BB             TSOC-BB-S32           TSOC                           thingSoC Thirty-Two (32) Pin Socket                    
-2   TSOC-LOGO-MED          TSOC-LOGO-MED          TSOC-LOGO-MED         U$3, U$4                       thingSoC Logo                                          
-1   TSOC-PCB-EM-BB         TSOC-PCB-EM-BB         TSOC-EM-BB            U$1                            thingSoC PCB Outlines                                  
+Qty Value                  Device                 Package               Parts                          Description
+------------------------------------------------------------------------------------------------------------------
+4   R,G,B,Y                LED0603                LED-0603              LED_A2, LED_A3, LED_D7, LED_D8 LED
+6   0.1uF                  CAP0402-CAP            0402-CAP              C1, C3, C4, C5, C6, C9         Capacitor
+1   100                    RESISTOR0402           0402-RES              R7                             Resistor
+2   10K                    RESISTOR0402           0402-RES              R3, R4                         Resistor
+1   120                    RESISTOR0402           0402-RES              RTERM                          Resistor
+6   1K                     RESISTOR0402           0402-RES              R1, R2, R5, R6, R9, R13        Resistor
+2   22uF                   CPOL-EUSMCB            SMC_B                 C2, C7                         Capacitor
+1   470pF                  CAP0402-CAP            0402-CAP              C8                             Capacitor
+3   4K7                    RESISTOR0402           0402-RES              R8, R11, R12                   Resistor
+1   6K8                    RESISTOR0402           0402-RES              R10                            Resistor
+1   ATMEGA328              ATMEGA328P             TQFP32                U3                             AVR Microprocessor
+1   FDC6420C               FDC6420C               SOT95P280X110-6N      Q2                             N/P Channel MOSFET
+1   MIC5219 3.3V           V_REG_MIC52193.3V      SOT23-5               U2                             V_REG MIC5219
+1   MOSFET-NCHANNELAO3404A MOSFET-NCHANNELAO3404A SOT23-3               Q1                             N Channel MOSFET
+1   NCP361SNT1G            NCP361SNT1G            SOP95P275X110-5N      U4                             USB Positive Overvoltage
+1   RESONATORSMD           RESONATORSMD           RESONATOR-SMD         X1                             Resonator
+1   ST1480ACSOIC           ST1480ACSOIC           SO08                  U1                             RS-485/RS-422 Transceiver
+
+Do Not Populate
+---------------
+2   DNP                    RESISTOR0402           0402-RES              R100, R101                     Resistor
+
