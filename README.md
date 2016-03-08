@@ -7,14 +7,13 @@ including a variety of analog sensors, such as Temperature, Wind, Pressure, Air 
  
 ---------------------------------------
 
-[![thingSoC TSOC_RS485_EM](http://thingsoc.github.io/img/projects/thingSoC/thingSoC_cat.png)  
+[![thingSoC TSOC_RS485_EM](http://thingsoc.github.io/img/projects/TSOC_RS485_EM/TSOC_RS485_EM_top.png)  
 *TSOC_RS485_EM*](https://github.com/PatternAgents/TSOC_RS485_EM/)
 
 * [thingSoC Compliant Module](http://www.thingsoc.com)
 * [Mikrobus Compatible Module](http://www.mikroe.com/mikrobus/) 
 * [Modbus](http://www.modbus.org/specs.php) Compliant Slave Interface
 * [5 Volt](https://en.wikipedia.org/wiki/Modbus) Nominal Power Input with ESD and OV/OC protections
-* [RGB Color LED for status](http://media.digikey.com/pdf/Data%20Sheets/CREE%20Power/CLV1A-FKB_Rev5.pdf)
 * Supports Six (6) Analog  Inputs  (ADC) 
 * Supports Six (6) Digital Outputs (3.3V)
 * Supports Six (2) Digital Inputs  (3.3V)
@@ -41,7 +40,8 @@ including a variety of analog sensors, such as Temperature, Wind, Pressure, Air 
 ---------------------------------------
 ## Project Status
 
-* 02/18/2016 : Initial Design Release for PCB fab</li>
+* 02/18/2016 : Initial Design Release for PCB fab
+* 03/07/2016 : First Prototypes, board bringup is good
 
 ---------------------------------------
 ## Documentation Index <a name="documentation_index"/>
