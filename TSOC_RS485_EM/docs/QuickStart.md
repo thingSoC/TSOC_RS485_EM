@@ -8,7 +8,7 @@ The **TSOC_RS485_EM**  Quick Start Guide is a series of quick steps to try out y
 ## Quick Start Guide <a name="quickstartguide_index"/>
 
 1. Plug a USB-UART (such as an FTDI cable) from your computer/tablet/etc. 
-   or other USB power source to the TSOC_RS485_EM.
+   or other USB power source to the **TSOC_RS485_EM**
 2. Open the Arduino IDE
 3. Select "Tools -> Board Manager -> Board -> Ardunio Pro or Mini"
 4. Select "Tools -> Port -> COMX:", where X is your USB-UART
