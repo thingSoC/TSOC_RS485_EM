@@ -17,6 +17,8 @@ which is implemented as an assembly/build time option.
 *TSOC_RS485_EM*](https://github.com/PatternAgents/TSOC_RS485_EM/)
 
 
+...coming soon... (3/14/2016)
+
 ---------------------------------------
 
 ## Documentation Index <a name="documentation_index"/>

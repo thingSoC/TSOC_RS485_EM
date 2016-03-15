@@ -77,7 +77,7 @@ and enables the use of an external driver for the main UART on D0 & D1.
 
 Limitations: 
 
-1) The **TSOC_RS485_EM** can use either 3.3V or 5V for VCC. SO either a 3.3V or 5V FTDI USB-UART can be used.
+1) The **TSOC_RS485_EM** can use either 3.3V or 5V for VCC, either a 3.3V or 5V FTDI USB-UART can be used.
 
 2) The **TSOC_RS485_EM** expects a 5.0V Volt external power supply input, do not exceed 5.0V power input (i.e. USB). 
 
