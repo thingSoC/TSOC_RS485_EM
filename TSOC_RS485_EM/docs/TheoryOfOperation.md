@@ -93,11 +93,11 @@ and only enabels the battery charger after USB enumeration is complete.
 
 ## Documentation Index <a name="documentation_index"/>
 
-[TSOC_RS485_EM Quick Start Guide](https://github.com/PatternAgents/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/QuickStart.md)
+[TSOC_RS485_EM Quick Start Guide](https://github.com/thingSoC/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/QuickStart.md)
 
-[TSOC_RS485_EM User Guide](https://github.com/PatternAgents/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/UserGuide.md)
+[TSOC_RS485_EM User Guide](https://github.com/thingSoC/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/UserGuide.md)
 
-[TSOC_RS485_EM Theory of Operation](https://github.com/PatternAgents/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/TheoryOfOperation.md)
+[TSOC_RS485_EM Theory of Operation](https://github.com/thingSoC/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/TheoryOfOperation.md)
 
 [thingSoC Organization Website](http://thingSoC.github.io)
 
