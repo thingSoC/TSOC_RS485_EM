@@ -97,9 +97,9 @@ Limitations:
 ## Master/Slave Settings <a name="master_slave"/>
 
 * MASTER - Using Onboard RS-485 Tranceiver, configure as follows:  
-  SJ1 : Installed
-  SJ3 : Installed
-  R17, R18, R19, R20, R21 Removed (not populated)
+  SJ1 : Installed  
+  SJ3 : Installed  
+  R17, R18, R19, R20, R21 Removed (not populated)  
   
 
 * Slave - Using Onboard RS-485 Tranceiver, configure as follows:  
