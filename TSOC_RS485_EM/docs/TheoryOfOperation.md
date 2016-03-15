@@ -34,6 +34,7 @@ which is implemented as an assembly/build time option.
 ### Page A : ATMEGA328 Processor (Atmel AVR - Arduino Compatible)<a name="PAGEA"/>
 
 The **TSOC_RS485_EM** can use either an ATMEGA328 or ATMEGA328P in a 32 PIN TQFP Package.
+
 X1 is a Murata Resonator, typically populated with an 8MHz component (16 MHz by request).
 
 ![Schematic Page A](https://github.com/thingSoC/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/images/sch_page_1.png "Schematic Page A")
