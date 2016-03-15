@@ -10,19 +10,24 @@ which is implemented as an assembly/build time option.
 ---------------------------------------
 
 [![thingSoC TSOC_RS485_EM](http://thingsoc.github.io/img/projects/TSOC_RS485_EM/TSOC_RS485_EM_top.png)  
-*TSOC_RS485_EM*](https://github.com/PatternAgents/TSOC_RS485_EM/)
+*TSOC_RS485_EM*](https://github.com/thingSoC/TSOC_RS485_EM/)
 
 * [thingSoC Compliant Module](http://www.thingsoc.com)
 * [Mikrobus Compatible Module](http://www.mikroe.com/mikrobus/) 
 * [Modbus](http://www.modbus.org/specs.php) Compliant Slave Interface
 * [5 Volt](https://en.wikipedia.org/wiki/Modbus) Nominal Power Input with ESD and OV/OC protections
-* Supports Six (6) Analog  Inputs  (ADC) 
-* Supports Six (6) Digital Outputs (3.3V)
-* Supports Six (2) Digital Inputs  (3.3V)
+* Supports Analog  Inputs  (ADC) 
+* Supports Digital Outputs (GPIO)
+* Supports Digital Inputs  (GPIO)
 * Supports Remote I2C Interface
 * Supports Remote UART Interface
 * Supports Remote SPI Interface
-* Easily add Modbus Interface support to any device or sensor, with little development time or experience
+
+## Protocols
+
+* DMX512, RDM512
+* Modbus
+* Vending Machine Bus
 
 ---------------------------------------
 ## Example Applications
