@@ -21,7 +21,7 @@ The **TSOC_RS485_EM**  Quick Start Guide is a series of quick steps to try out y
 8. Observe the LED Blinking
 
 [![thingSoC TSOC_RS485_EM](http://thingSoC.github.io/img/projects/TSOC_RS485_EM/TSOC_RS485_EM_top.png)  
-*TSOC_RS485_EM*](https://github.com/PatternAgents/TSOC_RS485_EM/)
+*TSOC_RS485_EM*](https://github.com/thingSoC/TSOC_RS485_EM/)
 
 ---------------------------------------
 

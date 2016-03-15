@@ -14,7 +14,7 @@ which is implemented as an assembly/build time option.
 
 
 [![thingSoC TSOC_RS485_EM](http://thingSoC.github.io/img/projects/TSOC_RS485_EM/TSOC_RS485_EM_top.png)  
-*TSOC_RS485_EM*](https://github.com/PatternAgents/TSOC_RS485_EM/)
+*TSOC_RS485_EM*](https://github.com/thingSoC/TSOC_RS485_EM/)
 
 
 ...coming soon... (3/14/2016)
