@@ -8,9 +8,6 @@ including a variety of analog sensors, such as Temperature, Wind, Pressure, Air 
 The **TSOC_RS485_EM** can be configured as either a thingSoC master module (female connectors), or a thingSoC slave module (male connectors),
 which is implemented as an assembly/build time option.
 
-[![thingSoC TSOC_RS485_EM](http://patternagents.github.io/img/projects/TSOC_RS485_EM/TSOC_RS485_EM_top.png)  
-*TSOC_RS485_EM*](https://github.com/PatternAgents/TSOC_RS485_EM/)
-
 ---------------------------------------
 
 [![thingSoC TSOC_RS485_EM](http://thingsoc.github.io/img/projects/TSOC_RS485_EM/TSOC_RS485_EM_top.png)  
