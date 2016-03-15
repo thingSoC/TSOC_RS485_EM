@@ -71,13 +71,16 @@ or resetable fuses, such as the PPTC fuse normally used for USB power on the typ
 
 ![Schematic Page D](https://github.com/thingSoC/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/images/sch_page_4.png "Schematic Page D")
 
+U1, an ST1480ACSOIC, is an RS-485 transceiver, capable of either 3.3V or 5V operation.
+Solder Jumper, SJ3 is used to disconnect the onboard ST1480ACSOIC RS-485 transceiver,
+and enables the use of an external driver for the main UART on D0 & D1.
+
 Limitations: 
 
-1) The TSOC_RS485_EM expects a 5.0V Volt power supply input, and can use either 3.3V or 5V for VCC. 
+1) The **TSOC_RS485_EM** can use either 3.3V or 5V for VCC. SO either a 3.3V or 5V FTDI USB-UART can be used.
 
-2) When using single cell Li-Po battery power, the 5V output power pin may be as low as 3.45 Volts,
-   as there is no "boost" regulator circuitry included. If 5V power is needed for peripheral
-   boards and sensors, it is suggested to use an external USB battery system instead of a single cell Li-Po battery.
+2) The **TSOC_RS485_EM** expects a 5.0V Volt external power supply input, do not exceed 5.0V power input (i.e. USB). 
+
    
    
    
