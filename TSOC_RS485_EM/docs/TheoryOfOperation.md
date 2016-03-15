@@ -101,12 +101,21 @@ Limitations:
   SJ3 : Installed  
   R17, R18, R19, R20, R21 Removed (not populated)  
   
-
-* Slave - Using Onboard RS-485 Tranceiver, configure as follows:  
-  SJ1 : Removed
-  SJ3 : Installed
-  R17, R18, R19, R20, R21 Removed (not populated)
-
+* MASTER - disable Onboard RS-485 Tranceiver, configure as follows:  
+  SJ1 : Installed  
+  SJ3 : Removed  
+  R17, R19, R21 Installed (1K Ohms)  
+  
+* SLAVE - Using Onboard RS-485 Tranceiver, configure as follows:  
+  SJ1 : Removed  
+  SJ3 : Installed  
+  R17, R18, R19, R20, R21 Removed (not populated)  
+  
+* SLAVE - disable Onboard RS-485 Tranceiver, configure as follows:  
+  SJ1 : Removed  
+  SJ3 : Removed  
+  R17, R18, R20 Installed (1K Ohms)  
+  
 
 ---------------------------------------
 
