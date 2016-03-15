@@ -81,9 +81,33 @@ Limitations:
 
 2) The **TSOC_RS485_EM** expects a 5.0V Volt external power supply input, do not exceed 5.0V power input (i.e. USB). 
 
-   
-   
-   
+ 
+---------------------------------------
+
+## Jumper Settings <a name="jumpers"/>
+
+* SJ1 - TSOC 3.3V Enable : Enables/Disables 3.3V power to an external thingSoC board. Default is enabled (connected).
+
+* SJ2 - VCC 3,3V or 5.0V select, up for 5.0 Volt operation, down for 3.3 Volt operation. Default is 3.3V VCC (down).
+
+* SJ3 - Internal RS-485 Driver Enable. Default is enabled (connected).
+
+---------------------------------------
+
+## Master/Slave Settings <a name="master_slave"/>
+
+* MASTER - Using Onboard RS-485 Tranceiver, configure as follows:  
+  SJ1 : Installed
+  SJ3 : Installed
+  R17, R18, R19, R20, R21 Removed (not populated)
+  
+
+* Slave - Using Onboard RS-485 Tranceiver, configure as follows:  
+  SJ1 : Removed
+  SJ3 : Installed
+  R17, R18, R19, R20, R21 Removed (not populated)
+
+
 ---------------------------------------
 
 ## Documentation Index <a name="documentation_index"/>
