@@ -11,11 +11,11 @@ and a Color RGB LED for USER status, with additonal, individual LEDS for Battery
 
 ## Documentation Index <a name="documentation_index"/>
 
-[TSOC_RS485_EM Quick Start Guide](https://github.com/PatternAgents/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/TSOC_RS485_EM_qsg.md)
+[TSOC_RS485_EM Quick Start Guide](https://github.com/PatternAgents/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/QuickStart.md)
 
-[TSOC_RS485_EM User Guide](https://github.com/PatternAgents/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/TSOC_RS485_EM_ug.md)
+[TSOC_RS485_EM User Guide](https://github.com/PatternAgents/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/UserGuide.md)
 
-[TSOC_RS485_EM Theory of Operation](https://github.com/PatternAgents/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/TSOC_RS485_EM_theory.md)
+[TSOC_RS485_EM Theory of Operation](https://github.com/PatternAgents/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/TheoryOfOperation.md)
 
 [thingSoC Organization Website](http://thingSoC.github.io)
 
@@ -27,3 +27,4 @@ and a Color RGB LED for USER status, with additonal, individual LEDS for Battery
 
 [![Image](http://thingsoc.github.io/img/projects/thingSoC/thingSoC_thumb.png?raw=true)  
 *thingSoC*](http://thingsoc.github.io) 
+ 

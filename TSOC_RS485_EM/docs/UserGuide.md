@@ -1,11 +1,12 @@
 # TSOC_RS485_EM User Guide
 
-**TSOC_RS485_EM** is a self contained, Embedded Wi-Fi Module, with integated Li-Po battery control and charging.
+**TSOC_RS485_EM** is a ATMEGA328 based board with integrated RS485 driver, an Embedded Module for thingSoC.
 
-**TSOC_RS485_EM** includes an ESP8266 Wi-Fi module, 
-along with an [PCA8575 I/O Expander](http://www.nxp.com/documents/data_sheet/PCA8575.pdf) 
-to provide an additional 16 Input/Output pins for the thingSoC Standard Socket,
-and a Color RGB LED for USER status, with additonal, individual LEDS for Battery Charger Status and USB Status.
+
+The **TSOC_RS485_EM** connects any thingSoC or Mikrobus module to an RS485 compatible slave interface,
+including a variety of analog sensors, such as Temperature, Wind, Pressure, Air Quality, and much more.
+The **TSOC_RS485_EM** can be configured as either a thingSoC master module (female connectors), or a thingSoC slave module (male connectors),
+which is implemented as an assembly/build time option.
 
 ---------------------------------------
 
@@ -16,11 +17,11 @@ and a Color RGB LED for USER status, with additonal, individual LEDS for Battery
 
 ## Documentation Index <a name="documentation_index"/>
 
-[TSOC_RS485_EM Quick Start Guide](https://github.com/PatternAgents/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/TSOC_RS485_EM_qsg.md)
+[TSOC_RS485_EM Quick Start Guide](https://github.com/PatternAgents/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/QuickStart.md)
 
-[TSOC_RS485_EM User Guide](https://github.com/PatternAgents/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/TSOC_RS485_EM_ug.md)
+[TSOC_RS485_EM User Guide](https://github.com/PatternAgents/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/UserGuide.md)
 
-[TSOC_RS485_EM Theory of Operation](https://github.com/PatternAgents/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/TSOC_RS485_EM_theory.md)
+[TSOC_RS485_EM Theory of Operation](https://github.com/PatternAgents/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/TheoryOfOperation.md)
 
 [thingSoC Organization Website](http://thingSoC.github.io)
 
@@ -32,3 +33,4 @@ and a Color RGB LED for USER status, with additonal, individual LEDS for Battery
 
 [![Image](http://thingsoc.github.io/img/projects/thingSoC/thingSoC_thumb.png?raw=true)  
 *thingSoC*](http://thingsoc.github.io) 
+ 
