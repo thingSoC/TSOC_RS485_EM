@@ -42,17 +42,19 @@ which is implemented as an assembly/build time option.
 ---------------------------------------
 ## Project Status
 
-* 02/18/2016 : Initial Design Release for PCB fab
+* 02/18/2016 : Revision 4.0 Release for PCB fab
 * 03/07/2016 : First Prototypes, board bringup is good
+* 03/14/2016 : Revision 5.0 Released for PCB
 
 ---------------------------------------
+
 ## Documentation Index <a name="documentation_index"/>
 
-[TSOC_RS485_EM Quick Start Guide](https://github.com/thingSOC/TSOC_RS485_EM/)
+[TSOC_RS485_EM Quick Start Guide](https://github.com/PatternAgents/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/QuickStart.md)
 
-[TSOC_RS485_EM User Guide](https://github.com/thingSOC/TSOC_RS485_EM/)
+[TSOC_RS485_EM User Guide](https://github.com/PatternAgents/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/UserGuide.md)
 
-[TSOC_RS485_EM Theory of Operation](https://github.com/thingSOC/TSOC_RS485_EM/)
+[TSOC_RS485_EM Theory of Operation](https://github.com/PatternAgents/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/TheoryOfOperation.md)
 
 [thingSoC Organization Website](http://thingSoC.github.io)
 
@@ -64,4 +66,4 @@ which is implemented as an assembly/build time option.
 
 [![Image](http://thingsoc.github.io/img/projects/thingSoC/thingSoC_thumb.png?raw=true)  
 *thingSoC*](http://thingsoc.github.io) 
-
+ 
