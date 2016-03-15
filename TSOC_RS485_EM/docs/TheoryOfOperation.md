@@ -53,11 +53,10 @@ Normally D0, D1, and D2 are used for the RS-485 tranceiver, and so R17, R18, R19
 ### Page C : Power Supply <a name="PAGEC"/>
 
 Q1, a [FDC6420C](https://www.fairchildsemi.com/datasheets/FD/FDC6420C.pdf) , is a complementary (N-Channel and P-Channel) power MOSFET 
-used to select between [USB Power](https://en.wikipedia.org/wiki/USB#USB_Power_Delivery) and an external 3.7 Volt single-cell 
-[Li-Po battery](https://en.wikipedia.org/wiki/Lithium_polymer_battery) as the primary power input. 
-[Resistor, R6 is used to "pull-down" the GATE of Q1P, turning it on, and enabling the battery (VBAT) to apply power to U2 (VIN).
-If USB1 is connected and power is provided to USB1_VBUS, then Resistor R4 powers the GATE of Q1N, turning it on (and turning Q1P off...),
-enabling USB1_VBUS to apply power to U2 (VIN).
+used to select between the internal TSOC socket power (slave operation), and the external 5V power supply (master operation).
+[Resistor, R15 is used to "pull-down" the GATE of Q1P, turning it on, and enabling the battery (VBAT) to apply power to U4 (VIN).
+If external 5V0 is connected, then Resistor R13 powers the GATE of Q1N, turning it on (and turning Q1P off...),
+enabling external 5V0 to apply power to U4 (VIN).
 
 U4, a [NCP361](http://www.onsemi.com/pub_link/Collateral/NCP361-D.PDF) , is a USB VBUS protection device, with an error output flag to indicate
 an undervoltage, overvoltage, or overcurrent condition. The !5V0_FAULT (error flag) signal is active low, 
