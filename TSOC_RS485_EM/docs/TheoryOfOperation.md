@@ -53,7 +53,7 @@ U1, a [MCP73831](http://www.microchip.com/wwwproducts/en/en024903) , is a tiny 5
 USB1 is connected and power is provided to USB1_VBUS. Battery Charger U1 is only enabled after USB enumeration and ower arbitration by the 
 BCD0 (Battery Charger Detect) signal, coming from the U4, the USB-UART interface device.
 
-![Schematic Page A](https://raw.githubusercontent.com/PatternAgents/TSOC_RS485_EM/master/TSOC_RS485_EM/docs/images/sch_page_1.png "Schematic Page A")
+![Schematic Page A](https://github.com/thingSoC/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/images/sch_page_1.png "Schematic Page A")
 
 Limitations: 
 
@@ -79,11 +79,11 @@ interface. The [CY7C65213](http://www.cypress.com/file/139881/download),
 implements the USB2.1 BCD (Battery Charger Detect) protocol,
 and only enabels the battery charger after USB enumeration is complete.
 
-![Schematic Page B](https://raw.githubusercontent.com/PatternAgents/TSOC_RS485_EM/master/TSOC_RS485_EM/docs/images/sch_page_2.png "Schematic Page B")
+![Schematic Page B](https://github.com/thingSoC/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/images/sch_page_2.png "Schematic Page B")
 
 ### Page C <a name="PAGEC"/>
 
-![Schematic Page C](https://raw.githubusercontent.com/PatternAgents/TSOC_RS485_EM/master/TSOC_RS485_EM/docs/images/sch_page_3.png "Schematic Page C")
+![Schematic Page C](https://github.com/thingSoC/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/images/sch_page_3.png "Schematic Page C")
 
 ### Page D <a name="PAGED"/>
 
