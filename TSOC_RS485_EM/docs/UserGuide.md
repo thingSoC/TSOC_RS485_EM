@@ -27,8 +27,8 @@ The included files in the "examples" directory, are Arduino programs, known as "
 ## Why RS-485?
 
 [RS-485](https://en.wikipedia.org/wiki/RS-485) is an older TIA/EIA standard for balanced digital multipoint, or "multi-drop" systems.
-Examples of [RS-485](https://en.wikipedia.org/wiki/RS-485) based systems include threatre lighting (DMX/RDM512), 
-Early networking (Apple Talk), Industrial process control (Modbus), Vending Machine control (VMB), and many other protocols and applications. 
+Examples of [RS-485](https://en.wikipedia.org/wiki/RS-485) based systems include theatre lighting (DMX/RDM512), 
+early networking (Apple Talk), industrial process control (Modbus), vending machine bus control (VMB), and many other protocols and applications. 
 The **TSOC_RS485_EM** is a simple and flexbile bridge tool for connecting a variety of other devices (sensors, relays, lights),
 as well as other communications protocols (Ethernet, Wi-Fi, Bluetooth, etc) using [RS-485](https://en.wikipedia.org/wiki/RS-485).
 
