@@ -54,7 +54,7 @@ Normally D0, D1, and D2 are used for the RS-485 tranceiver, and so R17, R18, R19
 
 Q1, a [FDC6420C](https://www.fairchildsemi.com/datasheets/FD/FDC6420C.pdf) , is a complementary (N-Channel and P-Channel) power MOSFET 
 used to select between the internal TSOC socket power (slave operation), and the external 5V power supply (master operation).
-[Resistor, R15 is used to "pull-down" the GATE of Q1P, turning it on, and enabling the TSOC socket 5V to apply power to U4 (VIN).
+Resistor, R15 is used to "pull-down" the GATE of Q1P, turning it on, and enabling the TSOC socket 5V to apply power to U4 (VIN).
 If external 5V0 is connected, then Resistor R13 powers the GATE of Q1N, turning it on (and turning Q1P off...),
 enabling external 5V0 to apply power to U4 (VIN).
 
