@@ -72,12 +72,14 @@ and will keep the system from powering up if the battery has been discharged too
 
 ### Page D : RS485 Tranceiver <a name="PAGED"/>
 
-![Schematic Page D](https://github.com/thingSoC/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/images/sch_page_4.png "Schematic Page D")
-
 U1, an ST1480ACSOIC, is an RS-485 transceiver, capable of either 3.3V or 5V operation.
 
 Solder Jumper, SJ3 is used to disconnect the onboard ST1480ACSOIC RS-485 transceiver,
 and enables the use of an external driver for the main UART on D0 & D1.
+
+![Schematic Page D](https://github.com/thingSoC/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/images/sch_page_4.png "Schematic Page D")
+
+---------------------------------------
 
 Limitations: 
 
