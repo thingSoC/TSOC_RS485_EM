@@ -66,7 +66,7 @@ and much more efficient than chemical or resetable fuses, such as the PPTC fuse 
 
 This type of active power protection scheme also protects your Li-Po battery from being completely discharged and ruined.
 U4, the [NCP361](http://www.onsemi.com/pub_link/Collateral/NCP361-D.PDF) also includes a low-voltage (undervoltage) comparator,
-and will keep the system from powering up if the battery has been discharged too much, preventing your battery from permenent damage. 
+and will keep the system from powering up if the battery has been discharged too much, preventing your battery from permanent damage. 
 
 ![Schematic Page C](https://github.com/thingSoC/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/images/sch_page_3.png "Schematic Page C")
 
