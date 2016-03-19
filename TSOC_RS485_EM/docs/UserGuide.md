@@ -61,9 +61,11 @@ From the Arduino IDE, select File -> Examples -> TSOC_RS485_EM -> (example)
 
 2) DMX Master   :  Transmits a "fade-up" in brightness on DMX Channels 12 - 17
 
-3) DMX Slave    :  Receive commands on DMX Channels 12-17 (12=Red, 13=Green, 14=Blue 15=Yellow, 16=Relay1, 17=Relay2)
+3) DMX Slave    :  Receive commands on DMX Channels 12-17  
+  (12=Red, 13=Green, 14=Blue 15=Yellow, 16=Relay1, 17=Relay2)
 
-4) Modbus Slave :  Receive commands on Modbus Address 1 (Holding Registers map to EEPROM, Coils to GPIO/Relays, etc.)
+4) Modbus Slave :  Receive commands on Modbus Address 1  
+  (Holding Registers map to EEPROM, Coils to GPIO/Relays, etc.)
 
 
 ---------------------------------------
