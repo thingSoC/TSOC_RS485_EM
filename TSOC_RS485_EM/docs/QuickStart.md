@@ -37,8 +37,6 @@ The **TSOC_RS485_EM**  Quick Start Guide is a series of quick steps to try out y
 
 [thingSoC FAQ - Frequently Asked Questions](http://thingsoc.github.io/support/faq.html)
 
-[ESP8266 Community](https://github.com/esp8266/Arduino)
-
 ---------------------------------------
 
 [![Image](http://thingsoc.github.io/img/projects/thingSoC/thingSoC_thumb.png?raw=true)  

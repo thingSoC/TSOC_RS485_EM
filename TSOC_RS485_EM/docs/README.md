@@ -21,7 +21,6 @@ which is implemented as an assembly/build time option.
 
 [thingSoC FAQ - Frequently Asked Questions](http://thingsoc.github.io/support/faq.html)
 
-[ESP8266 Community](https://github.com/esp8266/Arduino)
 
 ---------------------------------------
 
