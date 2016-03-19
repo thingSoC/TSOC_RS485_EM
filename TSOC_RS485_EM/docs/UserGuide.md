@@ -57,10 +57,14 @@ do not include the automatic device discovery, device configuration, monitoring,
 
 From the Arduino IDE, select File -> Examples -> TSOC_RS485_EM -> (example)
 
-1) Blinky       :  Blinks the onboard Red, Green, Blue, and Yellow LEDs in sequence 
+1) Blinky       :  Blinks the onboard Red, Green, Blue, and Yellow LEDs in sequence
+
 2) DMX Master   :  Transmits a "fade-up" in brightness on DMX Channels 12 - 17
+
 3) DMX Slave    :  Receive commands on DMX Channels 12-17 (12=Red, 13=Green, 14=Blue 15=Yellow, 16=Relay1, 17=Relay2)
+
 4) Modbus Slave :  Receive commands on Modbus Address 1 (Holding Registers map to EEPROM, Coils to GPIO/Relays, etc.)
+
 
 ---------------------------------------
 
