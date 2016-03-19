@@ -50,7 +50,7 @@ and can use the majority of [Click](http://www.mikroe.com/click/) modules, avail
 We're busy doing interoperability testing using a variety of the [Click](http://www.mikroe.com/click/) modules with [thingSoC](http://thingSoC.github.io) modules,
 and will be adding those as examples, as they are tested and verified. The [MikroElectronika](http://www.mikroe.com/) [Click](http://www.mikroe.com/click/) modules are inexpensive, 
 and available from a number of [distributors](http://www.mikroe.com/distributors/) worldwide, and they are a good compliment to the unique features available
-with [thingSoC](http://thingSoC.github.io) modules; however unlike thingSoC](http://thingSoC.github.io) modules, the [Click](http://www.mikroe.com/click/) modules
+with [thingSoC](http://thingSoC.github.io) modules; however unlike [thingSoC](http://thingSoC.github.io) modules, the [Click](http://www.mikroe.com/click/) modules
 do not include the automatic device discovery, device configuration, monitoring, instrumentation, features available with [thingSoC](http://thingSoC.github.io) modules.
 
 ## Examples
