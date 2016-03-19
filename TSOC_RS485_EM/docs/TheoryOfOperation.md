@@ -64,6 +64,9 @@ and is used to disable U3, the 3.3 Volt regulator. U3 a [MIC5219](http://www.mic
 is used to provide the 3.3 Volt power rail. This type of active power protection scheme is much faster (5/1000 of a second), 
 and much more efficient than chemical or resetable fuses, such as the PPTC fuse normally used for USB power on the typical Arduino board.
 
+This type of active power protection scheme also protect your Li-Po battery from being completely discharged and ruined.
+U4, the [NCP361](http://www.onsemi.com/pub_link/Collateral/NCP361-D.PDF) also includes a low-voltage (undervoltage) comparator,
+and will keep the system from powering up if the battery has been discharged too much, and preventing it from damage. 
 
 ![Schematic Page C](https://github.com/thingSoC/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/docs/images/sch_page_3.png "Schematic Page C")
 
