@@ -11,8 +11,8 @@ UsedLibrary="hardware/TSOC_RS485_EM.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="0 0 1126 551"
-State=1
+Loc="40 45 1574 917"
+State=2
 Number=0
 
 [Desktop]
