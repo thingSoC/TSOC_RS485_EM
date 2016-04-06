@@ -41,7 +41,7 @@ which is implemented as an assembly/build time option.
 ---------------------------------------
 ## 3D Model (Sketchup)
 
-![thingSoC TSOC_RS485_EM](http://thingsoc.github.io/img/projects/TSOC_RS485_EM/TSOC_RS485_EM_model.png)
+![thingSoC TSOC_RS485_EM](https://raw.githubusercontent.com/thingSoC/TSOC_RS485_EM/master/TSOC_RS485_EM/images/TSOC_RS485_EM_iso.png)
 
 
 ---------------------------------------
