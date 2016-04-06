@@ -1,26 +1,29 @@
-Partlist exported from /home/moxon/github/TSOC_RS485_EM/TSOC_RS485_EM/revisions/TSOC_RS485_EM_R5_0.sch at 3/14/16 5:49 PM
+Partlist exported from /home/moxon/github/TSOC_RS485_EM/TSOC_RS485_EM/TSOC_RS485_EM.sch at 4/6/16 2:10 PM
 
-Qty Value                  Device                 Package               Parts                            Description                                            
-1   Red                    LED0603                LED-0603              LED_A2                           Red
-1   Green                  LED0603                LED-0603              LED_A3                           Greeen
-1   Blue                   LED0603                LED-0603              LED_D4                           Blue
-1   Yellow                 LED0603                LED-0603              LED_D5                           Yellow                                                   
-1   SCREWTERMINAL          TE 1776275-4           3.5MM-4               RS485                            Header 4 Pin Screw Terminal                                                                                     
-7   0.1uF                  CAP0402-CAP            0402-CAP              C2, C3, C4, C5, C7, C8, C9       Capacitor                                              
-3   10K                    RESISTOR0402           0402-RES              R3, R8, R12                      Resistor                                               
-1   120                    RESISTOR0402           0402-RES              R7                               Resistor                                               
-4   1K                     RESISTOR0402           0402-RES              R1, R2, R16, R24                 Resistor                                               
-2   22uF                   1206                   SMC_B                 C1, C10                          Capacitor                   
-1   470pF                  CAP0402-CAP            0402-CAP              C6                               Capacitor                                              
-5   4K7                    RESISTOR0402           0402-RES              R4, R11, R14, R22, R23           Resistor                                               
-3   56                     RESISTOR0402           0402-RES              R5, R9, R13                      Resistor                                               
-1   6K8                    RESISTOR0402           0402-RES              R15                              Resistor                                               
-1   16MHZ                  CSTCE16M0V53-R0        RESONATOR-SMD         X1                               Resonator                                              
-1   ATMEGA328P             ATMEGA328P             TQFP32-08             U2                               Atmel AVR (Arduino Compatible, Optiboot loaded)                                                       
-1   FDC6420C               FDC6420C               SOT95P280X110-6N      Q1                               N and P Channel Power Trench MOSFETs                              
-1   MIC5219 3.3V           V_REG_MIC52193.3V      SOT23-5               U3                               V_REG MIC5219                                          
-1   MOSFET-NCHANNELAO3404A MOSFET-NCHANNELAO3404A SOT23-3               Q2                               Common NMOSFET Parts                                   
-1   NCP361SNT1G            NCP361SNT1G            SOP95P275X110-5N      U4                               USB Positive Overvoltage Protection Controller         
-1   ST1480ACSOIC           ST1480ACSOIC           SO08                  U1                               ST Microelectronics ST1480AC RS-485/RS-422 Transceiver 
-1   TSOC-8-SERPROG         TSOC-8-SERPROG         TSOC-8-SERPROG        SERPROG                          thingSoC eight (8) Pin programming header                                  
-7   DNP                    RESISTOR0402           0402-RES              R6, R10, R17, R18, R19, R20, R21 Resistor (Do Not Pupulate for Default Version)
+Qty Value                  Device                 Package               Parts                      Description                                            
+5                          JMP-2-NO               JMP-2-NO              J6, J7, J8, J9, J10        Two Terminal Jumper - Normally Open                    
+4                          LED0603                LED-0603              LED_B, LED_G, LED_R, LED_Y LEDs                                                   
+1                          M04PTH                 1X04                  JP1                        Header 4                                               
+1                          M04SCREW               SCREWTERMINAL-3.5MM-4 RS485                      Header 4                                               
+7   0.1uF                  CAP0402-CAP            0402-CAP              C2, C3, C4, C5, C7, C8, C9 Capacitor                                              
+1   100                    RESISTOR0402           0402-RES              R13                        Resistor                                               
+3   10K                    RESISTOR0402           0402-RES              R3, R8, R12                Resistor                                               
+1   120                    RESISTOR0402           0402-RES              R7                         Resistor                                               
+4   1K                     RESISTOR0402           0402-RES              R1, R2, R16, R24           Resistor                                               
+2   22uF                   CPOL-EUSMCB            SMC_B                 C1, C10                    POLARIZED CAPACITOR, European symbol                   
+1   470pF                  CAP0402-CAP            0402-CAP              C6                         Capacitor                                              
+5   4K7                    RESISTOR0402           0402-RES              R4, R11, R14, R22, R23     Resistor                                               
+2   56                     RESISTOR0402           0402-RES              R5, R9                     Resistor                                               
+1   6K8                    RESISTOR0402           0402-RES              R15                        Resistor                                               
+1   8MHZ                   RESONATOR8MHZ          RESONATOR-SMD         X1                         Resonator                                              
+1   ATMEGA328              ATMEGA168              TQFP32-08             U2                                                                                
+2   DNP                    RESISTOR0402           0402-RES              R6, R10                    Resistor                                               
+1   FDC6420C               FDC6420C               SOT95P280X110-6N      Q1                         N and P Channel Power Trench MOSFETs                   
+4   JMP-2-NC               JMP-2-NC               JMP-2-NC              J2, J11, J12, J13          Two Terminal Jumper - Normally Closed                  
+4   JMP-3-1_2              JMP-3-1_2              JMP-3-1_2             J1, J3, J4, J5             Three Terminal Jumper - 1 & 2 Connected                
+1   MIC5219 3.3V           V_REG_MIC52193.3V      SOT23-5               U3                         V_REG MIC5219                                          
+1   MOSFET-NCHANNELAO3404A MOSFET-NCHANNELAO3404A SOT23-3               Q2                         Common NMOSFET Parts                                   
+1   NCP361SNT1G            NCP361SNT1G            SOP95P275X110-5N      U4                         USB Positive Overvoltage Protection Controller         
+1   ST1480ACSOIC           ST1480ACSOIC           SO08                  U1                         ST Microelectronics ST1480AC RS-485/RS-422 Transceiver 
+1   TSOC-32-BB             TSOC-32-BB             TSOC-BB-S32           TSOC                       thingSoC Thirty-Two (32) Pin Socket                    
+1   TSOC-PCB-EM-45         TSOC-PCB-EM-45         TSOC-EM-BB-45MM       U$1                        thingSoC PCB Outlines                                  
