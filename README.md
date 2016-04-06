@@ -50,6 +50,15 @@ which is implemented as an assembly/build time option.
 * 02/18/2016 : Revision 4.0 Release for PCB fab
 * 03/07/2016 : First Prototypes, board bringup is good
 * 03/14/2016 : Revision 5.0 Released for PCB
+* 04/06/2016 : Revision 6.0 Released for PCB
+
+## Revision 6.0 Notes: ##
+
+* Pinout Changes, D5/D8/D9 added as a second serial choice
+* Disconnect jumpers added to all shared pins
+* A7 used as AREF calibration input
+* A6 used as VCC monitor input
+* Both 3.5mm and 2.54mm connector patterns added
 
 ---------------------------------------
 
