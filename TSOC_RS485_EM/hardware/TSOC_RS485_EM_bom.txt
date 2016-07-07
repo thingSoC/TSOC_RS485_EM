@@ -1,23 +1,24 @@
-Partlist exported from /home/moxon/github/TSOC_RS485_EM/TSOC_RS485_EM/TSOC_RS485_EM.sch at 4/6/16 2:10 PM
+Partlist exported from U:/PatternAgents/eagle/TSOC_Modules/TSOC_RS485_EM/TSOC_RS485_EM/TSOC_RS485_EM.sch at 7/7/2016 11:09:10 AM
 
 Qty Value                  Device                 Package               Parts                      Description                                            
 5                          JMP-2-NO               JMP-2-NO              J6, J7, J8, J9, J10        Two Terminal Jumper - Normally Open                    
 4                          LED0603                LED-0603              LED_B, LED_G, LED_R, LED_Y LEDs                                                   
 1                          M04PTH                 1X04                  JP1                        Header 4                                               
 1                          M04SCREW               SCREWTERMINAL-3.5MM-4 RS485                      Header 4                                               
-7   0.1uF                  CAP0402-CAP            0402-CAP              C2, C3, C4, C5, C7, C8, C9 Capacitor                                              
-1   100                    RESISTOR0402           0402-RES              R13                        Resistor                                               
-3   10K                    RESISTOR0402           0402-RES              R3, R8, R12                Resistor                                               
-1   120                    RESISTOR0402           0402-RES              R7                         Resistor                                               
-4   1K                     RESISTOR0402           0402-RES              R1, R2, R16, R24           Resistor                                               
+1                          M08X2                  2X8                   J14                        .1" headers, two rows of 8 each                        
+7   0.1uF                  CAPTYP                 EIA-0402              C2, C3, C4, C5, C7, C8, C9 Capacitor                                              
+1   100                    RESISTOR0402-MIN       EIA-0402-MIN          R13                        Resistor                                               
+3   10K                    RESISTOR0402-MIN       EIA-0402-MIN          R3, R8, R12                Resistor                                               
+1   120                    RESISTOR0402-MIN       EIA-0402-MIN          R7                         Resistor                                               
+4   1K                     RESISTOR0402-MIN       EIA-0402-MIN          R1, R2, R16, R24           Resistor                                               
 2   22uF                   CPOL-EUSMCB            SMC_B                 C1, C10                    POLARIZED CAPACITOR, European symbol                   
-1   470pF                  CAP0402-CAP            0402-CAP              C6                         Capacitor                                              
-5   4K7                    RESISTOR0402           0402-RES              R4, R11, R14, R22, R23     Resistor                                               
-2   56                     RESISTOR0402           0402-RES              R5, R9                     Resistor                                               
-1   6K8                    RESISTOR0402           0402-RES              R15                        Resistor                                               
+1   470pF                  CAPTYP                 EIA-0402              C6                         Capacitor                                              
+5   4K7                    RESISTOR0402-MIN       EIA-0402-MIN          R4, R11, R14, R22, R23     Resistor                                               
+2   56                     RESISTOR0402-MIN       EIA-0402-MIN          R5, R9                     Resistor                                               
+1   6K8                    RESISTOR0402-MIN       EIA-0402-MIN          R15                        Resistor                                               
 1   8MHZ                   RESONATOR8MHZ          RESONATOR-SMD         X1                         Resonator                                              
 1   ATMEGA328              ATMEGA168              TQFP32-08             U2                                                                                
-2   DNP                    RESISTOR0402           0402-RES              R6, R10                    Resistor                                               
+2   DNP                    RESISTOR0402-MIN       EIA-0402-MIN          R6, R10                    Resistor                                               
 1   FDC6420C               FDC6420C               SOT95P280X110-6N      Q1                         N and P Channel Power Trench MOSFETs                   
 4   JMP-2-NC               JMP-2-NC               JMP-2-NC              J2, J11, J12, J13          Two Terminal Jumper - Normally Closed                  
 4   JMP-3-1_2              JMP-3-1_2              JMP-3-1_2             J1, J3, J4, J5             Three Terminal Jumper - 1 & 2 Connected                
@@ -26,4 +27,5 @@ Qty Value                  Device                 Package               Parts   
 1   NCP361SNT1G            NCP361SNT1G            SOP95P275X110-5N      U4                         USB Positive Overvoltage Protection Controller         
 1   ST1480ACSOIC           ST1480ACSOIC           SO08                  U1                         ST Microelectronics ST1480AC RS-485/RS-422 Transceiver 
 1   TSOC-32-BB             TSOC-32-BB             TSOC-BB-S32           TSOC                       thingSoC Thirty-Two (32) Pin Socket                    
-1   TSOC-PCB-EM-45         TSOC-PCB-EM-45         TSOC-EM-BB-45MM       U$1                        thingSoC PCB Outlines                                  
+4   TSOC-LOGO-SMALL        TSOC-LOGO-SMALL        TSOC-LOGO-SML         U$5, U$6, U$7, U$8         thingSoC Logo                                          
+1   TSOC-PCB-PLUS          TSOC-PCB-PLUS          TSOC-BB-BRD-PLUS      U$3                        thingSoC PCB Outlines                                  
