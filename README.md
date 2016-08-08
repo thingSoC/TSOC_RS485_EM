@@ -9,7 +9,7 @@ which is implemented as an assembly/build time option.
  
 ---------------------------------------
 
-[![thingSoC TSOC_NEOLED](https://raw.githubusercontent.com/thingSoC/TSOC_RS485_EM/master/TSOC_RS485_EM/images/product/TSOC_RS485_EM.png?raw=true)TSOC_RS485_EM](https://github.com/thingSoC/TSOC_RS485_EM/)
+[![thingSoC TSOC_NEOLED](https://github.com/thingSoC/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/images/product/TSOC_RS485_EM.jpg?raw=true)TSOC_RS485_EM](https://github.com/thingSoC/TSOC_RS485_EM/)
 
 
 * [thingSoC Compliant Module](http://www.thingsoc.com)
