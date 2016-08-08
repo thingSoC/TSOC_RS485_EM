@@ -25208,6 +25208,8 @@ Open Source Sockets for IoT</text>
 Open Source Sockets for IoT</text>
 <text x="477.52" y="25.4" size="2.54" layer="91" font="vector" ratio="15">thingSoC Reference Design
 Open Source Sockets for IoT</text>
+<text x="104.14" y="182.88" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">POWER</text>
+<text x="104.14" y="177.8" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">GROUND</text>
 <text x="170.18" y="195.58" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">!DEBUG</text>
 <text x="170.18" y="193.04" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">!RTS</text>
 <text x="170.18" y="180.34" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">!CTS</text>
@@ -25216,30 +25218,6 @@ Open Source Sockets for IoT</text>
 <text x="170.18" y="185.42" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">RXD</text>
 <text x="170.18" y="182.88" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">POWER</text>
 <text x="170.18" y="177.8" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">GROUND</text>
-<text x="106.68" y="180.34" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">JTDI</text>
-<text x="106.68" y="193.04" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">JTDO</text>
-<text x="106.68" y="190.5" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">!JTRST</text>
-<text x="106.68" y="187.96" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">JTCK</text>
-<text x="106.68" y="185.42" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">JTMS</text>
-<text x="106.68" y="182.88" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">POWER</text>
-<text x="106.68" y="177.8" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">GROUND</text>
-<text x="106.68" y="195.58" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">!JTAG</text>
-<text x="96.52" y="187.96" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">SWDCLK</text>
-<text x="96.52" y="185.42" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">SWDIO</text>
-<text x="96.52" y="195.58" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">!JTAG</text>
-<text x="96.52" y="193.04" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">JTDO</text>
-<text x="96.52" y="190.5" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">!JTRST</text>
-<text x="96.52" y="182.88" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">POWER</text>
-<text x="96.52" y="180.34" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">JTDI</text>
-<text x="96.52" y="177.8" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">GROUND</text>
-<text x="86.36" y="187.96" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">SCK</text>
-<text x="86.36" y="185.42" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">SSEL</text>
-<text x="86.36" y="195.58" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">SPI</text>
-<text x="86.36" y="193.04" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">MOSI</text>
-<text x="86.36" y="190.5" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">!RST</text>
-<text x="86.36" y="182.88" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">POWER</text>
-<text x="86.36" y="180.34" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">MISO</text>
-<text x="86.36" y="177.8" size="1.6764" layer="91" font="vector" ratio="10" rot="MR0" align="center">GROUND</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$2" x="172.72" y="0"/>

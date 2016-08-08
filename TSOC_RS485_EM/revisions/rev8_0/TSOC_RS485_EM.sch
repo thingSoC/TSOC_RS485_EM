@@ -25147,7 +25147,6 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 <part name="J2" library="TSOC-MODBUS-ESM" deviceset="JMP-2-NC" device=""/>
 <part name="C9" library="PatternAgents-ProtoPads" deviceset="CAP" device="TYP" value="0.1uF"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="R10" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-MIN" value="DNP"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="R9" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-MIN" value="56"/>
 <part name="R5" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-MIN" value="56"/>
@@ -25155,7 +25154,6 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 <part name="R4" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-MIN" value="4K7"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="R7" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-MIN" value="120"/>
-<part name="R6" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-MIN" value="DNP"/>
 <part name="R3" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0402-MIN" value="10K"/>
 <part name="C5" library="PatternAgents-ProtoPads" deviceset="CAP" device="TYP" value="0.1uF"/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
@@ -25320,7 +25318,6 @@ Open Source Sockets for IoT</text>
 <instance part="J2" gate="G$1" x="513.08" y="317.5"/>
 <instance part="C9" gate="G$1" x="520.7" y="307.34"/>
 <instance part="GND3" gate="1" x="520.7" y="297.18"/>
-<instance part="R10" gate="R" x="198.12" y="106.68" rot="R180"/>
 <instance part="GND4" gate="1" x="469.9" y="83.82"/>
 <instance part="R9" gate="R" x="441.96" y="114.3" rot="R180"/>
 <instance part="R5" gate="R" x="441.96" y="99.06" rot="R180"/>
@@ -25328,7 +25325,6 @@ Open Source Sockets for IoT</text>
 <instance part="R4" gate="R" x="431.8" y="91.44" rot="R270"/>
 <instance part="GND5" gate="1" x="431.8" y="78.74"/>
 <instance part="R7" gate="R" x="457.2" y="106.68" rot="R270"/>
-<instance part="R6" gate="R" x="198.12" y="99.06" rot="R180"/>
 <instance part="R3" gate="R" x="368.3" y="121.92" rot="R90"/>
 <instance part="C5" gate="G$1" x="88.9" y="375.92" smashed="yes" rot="R90">
 <attribute name="NAME" x="89.027" y="374.904" size="1.778" layer="95" rot="R270"/>
@@ -25563,11 +25559,6 @@ Open Source Sockets for IoT</text>
 <label x="106.68" y="383.54" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R10" gate="R" pin="1"/>
-<wire x1="203.2" y1="106.68" x2="208.28" y2="106.68" width="0.1524" layer="91"/>
-<label x="208.28" y="106.68" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J14" gate="G$1" pin="5"/>
 <wire x1="129.54" y1="190.5" x2="119.38" y2="190.5" width="0.1524" layer="91"/>
 <label x="119.38" y="190.5" size="1.27" layer="95" font="vector" ratio="9" rot="R180" xref="yes"/>
@@ -25600,6 +25591,11 @@ Open Source Sockets for IoT</text>
 <wire x1="165.1" y1="88.9" x2="182.88" y2="88.9" width="0.1524" layer="91"/>
 <label x="182.88" y="88.9" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J14" gate="G$1" pin="7"/>
+<wire x1="129.54" y1="187.96" x2="119.38" y2="187.96" width="0.1524" layer="91"/>
+<label x="119.38" y="187.96" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="D12" class="0">
 <segment>
@@ -25612,6 +25608,11 @@ Open Source Sockets for IoT</text>
 <wire x1="165.1" y1="86.36" x2="182.88" y2="86.36" width="0.1524" layer="91"/>
 <label x="182.88" y="86.36" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J14" gate="G$1" pin="13"/>
+<wire x1="129.54" y1="180.34" x2="119.38" y2="180.34" width="0.1524" layer="91"/>
+<label x="119.38" y="180.34" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="D11" class="0">
 <segment>
@@ -25623,6 +25624,11 @@ Open Source Sockets for IoT</text>
 <pinref part="TSOC" gate="TSOC" pin="MOSI"/>
 <wire x1="165.1" y1="83.82" x2="182.88" y2="83.82" width="0.1524" layer="91"/>
 <label x="182.88" y="83.82" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J14" gate="G$1" pin="3"/>
+<wire x1="129.54" y1="193.04" x2="119.38" y2="193.04" width="0.1524" layer="91"/>
+<label x="119.38" y="193.04" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="XOUT" class="0">
@@ -25649,6 +25655,11 @@ Open Source Sockets for IoT</text>
 <pinref part="TSOC" gate="TSOC" pin="!CS"/>
 <wire x1="165.1" y1="81.28" x2="182.88" y2="81.28" width="0.1524" layer="91"/>
 <label x="182.88" y="81.28" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J14" gate="G$1" pin="9"/>
+<wire x1="129.54" y1="185.42" x2="119.38" y2="185.42" width="0.1524" layer="91"/>
+<label x="119.38" y="185.42" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D9" class="0">
@@ -26028,11 +26039,6 @@ Open Source Sockets for IoT</text>
 <label x="152.4" y="279.4" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R6" gate="R" pin="1"/>
-<wire x1="203.2" y1="99.06" x2="208.28" y2="99.06" width="0.1524" layer="91"/>
-<label x="208.28" y="99.06" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U2" gate="G$1" pin="ADC6"/>
 <wire x1="154.94" y1="358.14" x2="160.02" y2="358.14" width="0.1524" layer="91"/>
 <label x="160.02" y="358.14" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
@@ -26273,24 +26279,12 @@ Open Source Sockets for IoT</text>
 </net>
 <net name="JTDO" class="0">
 <segment>
-<pinref part="TSOC" gate="TSOC" pin="JTDO"/>
-<pinref part="R10" gate="R" pin="2"/>
-<wire x1="165.1" y1="106.68" x2="193.04" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="J14" gate="G$1" pin="4"/>
 <wire x1="144.78" y1="193.04" x2="154.94" y2="193.04" width="0.1524" layer="91"/>
 <label x="154.94" y="193.04" size="1.4224" layer="95" ratio="10" xref="yes"/>
 </segment>
 </net>
 <net name="!JDBG" class="0">
-<segment>
-<pinref part="TSOC" gate="TSOC" pin="!JDBG"/>
-<wire x1="165.1" y1="104.14" x2="190.5" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="104.14" x2="190.5" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="R6" gate="R" pin="2"/>
-<wire x1="190.5" y1="99.06" x2="193.04" y2="99.06" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <wire x1="144.78" y1="195.58" x2="154.94" y2="195.58" width="0.1524" layer="91"/>
 <label x="154.94" y="195.58" size="1.27" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
@@ -26383,6 +26377,13 @@ Open Source Sockets for IoT</text>
 <pinref part="J12" gate="G$1" pin="1"/>
 <pinref part="TSOC" gate="TSOC" pin="IO1"/>
 <wire x1="172.72" y1="71.12" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="!JTAG" class="0">
+<segment>
+<pinref part="J14" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="195.58" x2="119.38" y2="195.58" width="0.1524" layer="91"/>
+<label x="119.38" y="195.58" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

@@ -24,7 +24,7 @@ Qty Value                  Device                 Package               Parts   
 4   JMP-3-1_2              JMP-3-1_2              JMP-3-1_2             J1, J3, J4, J5             Three Terminal Jumper - 1 & 2 Connected                
 1   MIC5219 3.3V           V_REG_MIC52193.3V      SOT23-5               U3                         V_REG MIC5219                                          
 1   MOSFET-NCHANNELAO3404A MOSFET-NCHANNELAO3404A SOT23-3               Q2                         Common NMOSFET Parts                                   
-1   NCP361SNT1G            NCP361SNT1G            SOP95P275X110-5N      U4                         USB Positive Overvoltage Protection Controller         
+1   NCP361SNT1G            NCP361SNT1G            SOP95P275X110-5N      U4                         USB Positive Overvoltage Protection Controller (subs. MIC2005A-1YM5/MIC2019YM6)       
 1   ST1480ACSOIC           ST1480ACSOIC           SO08                  U1                         ST Microelectronics ST1480AC RS-485/RS-422 Transceiver 
 1   TSOC-32-BB             TSOC-32-BB             TSOC-BB-S32           TSOC                       thingSoC Thirty-Two (32) Pin Socket                    
 4   TSOC-LOGO-SMALL        TSOC-LOGO-SMALL        TSOC-LOGO-SML         U$5, U$6, U$7, U$8         thingSoC Logo                                          

@@ -6353,12 +6353,29 @@ design rules under a new name.</description>
 <via x="17.78" y="25.146" extent="1-16" drill="0.3556"/>
 <wire x1="17.78" y1="25.146" x2="17.78" y2="21.844" width="0.254" layer="16"/>
 <wire x1="17.78" y1="21.844" x2="17.018" y2="21.082" width="0.254" layer="16"/>
+<contactref element="J14" pad="7"/>
+<wire x1="1.778" y1="16.51" x2="3.048" y2="17.78" width="0.1778" layer="16"/>
+<wire x1="3.048" y1="17.78" x2="3.048" y2="26.67" width="0.1778" layer="16"/>
+<wire x1="3.048" y1="26.67" x2="4.826" y2="28.448" width="0.1778" layer="16"/>
+<wire x1="4.826" y1="28.448" x2="19.304" y2="28.448" width="0.1778" layer="16"/>
+<wire x1="19.304" y1="28.448" x2="19.558" y2="28.194" width="0.1778" layer="16"/>
+<wire x1="19.558" y1="28.194" x2="19.558" y2="26.67" width="0.1778" layer="16"/>
 </signal>
 <signal name="D12">
 <contactref element="U2" pad="16"/>
 <contactref element="TSOC" pad="9B"/>
 <wire x1="17.012" y1="22.5806" x2="17.012" y2="26.664" width="0.254" layer="1"/>
 <wire x1="17.012" y1="26.664" x2="17.018" y2="26.67" width="0.254" layer="1"/>
+<contactref element="J14" pad="13"/>
+<wire x1="1.778" y1="8.89" x2="1.016" y2="8.89" width="0.1778" layer="1"/>
+<wire x1="1.016" y1="8.89" x2="0.508" y2="9.398" width="0.1778" layer="1"/>
+<wire x1="0.508" y1="9.398" x2="0.508" y2="25.654" width="0.1778" layer="1"/>
+<wire x1="0.508" y1="25.654" x2="1.524" y2="26.67" width="0.1778" layer="1"/>
+<wire x1="1.524" y1="26.67" x2="2.54" y2="26.67" width="0.1778" layer="1"/>
+<wire x1="2.54" y1="26.67" x2="5.08" y2="29.21" width="0.1778" layer="1"/>
+<wire x1="5.08" y1="29.21" x2="16.256" y2="29.21" width="0.1778" layer="1"/>
+<wire x1="16.256" y1="29.21" x2="17.018" y2="28.448" width="0.1778" layer="1"/>
+<wire x1="17.018" y1="28.448" x2="17.018" y2="26.67" width="0.1778" layer="1"/>
 </signal>
 <signal name="D11">
 <contactref element="U2" pad="15"/>
@@ -6373,6 +6390,13 @@ design rules under a new name.</description>
 <wire x1="16.002" y1="20.574" x2="16.002" y2="25.146" width="0.254" layer="16"/>
 <via x="16.002" y="25.146" extent="1-16" drill="0.3556"/>
 <wire x1="16.002" y1="25.146" x2="14.478" y2="26.67" width="0.254" layer="1"/>
+<contactref element="J14" pad="3"/>
+<wire x1="14.478" y1="26.67" x2="14.478" y2="27.94" width="0.1778" layer="1"/>
+<wire x1="14.478" y1="27.94" x2="13.97" y2="28.448" width="0.1778" layer="1"/>
+<wire x1="13.97" y1="28.448" x2="4.826" y2="28.448" width="0.1778" layer="1"/>
+<wire x1="4.826" y1="28.448" x2="3.048" y2="26.67" width="0.1778" layer="1"/>
+<wire x1="3.048" y1="26.67" x2="3.048" y2="22.86" width="0.1778" layer="1"/>
+<wire x1="3.048" y1="22.86" x2="1.778" y2="21.59" width="0.1778" layer="1"/>
 </signal>
 <signal name="XOUT">
 <contactref element="X1" pad="1"/>
@@ -6399,6 +6423,16 @@ design rules under a new name.</description>
 <wire x1="18.612" y1="24.708" x2="19.05" y2="25.146" width="0.254" layer="1"/>
 <wire x1="19.05" y1="25.146" x2="20.574" y2="25.146" width="0.254" layer="1"/>
 <wire x1="20.574" y1="25.146" x2="22.098" y2="26.67" width="0.254" layer="1"/>
+<contactref element="J14" pad="9"/>
+<wire x1="1.778" y1="13.97" x2="1.016" y2="13.97" width="0.1778" layer="16"/>
+<wire x1="1.016" y1="13.97" x2="0.508" y2="14.478" width="0.1778" layer="16"/>
+<wire x1="0.508" y1="14.478" x2="0.508" y2="25.654" width="0.1778" layer="16"/>
+<wire x1="0.508" y1="25.654" x2="1.524" y2="26.67" width="0.1778" layer="16"/>
+<wire x1="1.524" y1="26.67" x2="2.54" y2="26.67" width="0.1778" layer="16"/>
+<wire x1="2.54" y1="26.67" x2="5.08" y2="29.21" width="0.1778" layer="16"/>
+<wire x1="5.08" y1="29.21" x2="21.336" y2="29.21" width="0.1778" layer="16"/>
+<wire x1="21.336" y1="29.21" x2="22.098" y2="28.448" width="0.1778" layer="16"/>
+<wire x1="22.098" y1="28.448" x2="22.098" y2="26.67" width="0.1778" layer="16"/>
 </signal>
 <signal name="D9">
 <contactref element="U2" pad="13"/>
@@ -7202,6 +7236,9 @@ design rules under a new name.</description>
 <contactref element="J12" pad="1"/>
 <contactref element="TSOC" pad="2B"/>
 <wire x1="34.798" y1="26.67" x2="34.798" y2="25.2929" width="0.254" layer="1"/>
+</signal>
+<signal name="!JTAG">
+<contactref element="J14" pad="1"/>
 </signal>
 </signals>
 <errors>

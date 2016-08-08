@@ -25600,6 +25600,11 @@ Open Source Sockets for IoT</text>
 <wire x1="165.1" y1="88.9" x2="182.88" y2="88.9" width="0.1524" layer="91"/>
 <label x="182.88" y="88.9" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J14" gate="G$1" pin="7"/>
+<wire x1="129.54" y1="187.96" x2="119.38" y2="187.96" width="0.1524" layer="91"/>
+<label x="119.38" y="187.96" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="D12" class="0">
 <segment>
@@ -25612,6 +25617,11 @@ Open Source Sockets for IoT</text>
 <wire x1="165.1" y1="86.36" x2="182.88" y2="86.36" width="0.1524" layer="91"/>
 <label x="182.88" y="86.36" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J14" gate="G$1" pin="13"/>
+<wire x1="129.54" y1="180.34" x2="119.38" y2="180.34" width="0.1524" layer="91"/>
+<label x="119.38" y="180.34" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="D11" class="0">
 <segment>
@@ -25623,6 +25633,11 @@ Open Source Sockets for IoT</text>
 <pinref part="TSOC" gate="TSOC" pin="MOSI"/>
 <wire x1="165.1" y1="83.82" x2="182.88" y2="83.82" width="0.1524" layer="91"/>
 <label x="182.88" y="83.82" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J14" gate="G$1" pin="3"/>
+<wire x1="129.54" y1="193.04" x2="119.38" y2="193.04" width="0.1524" layer="91"/>
+<label x="119.38" y="193.04" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="XOUT" class="0">
@@ -25649,6 +25664,11 @@ Open Source Sockets for IoT</text>
 <pinref part="TSOC" gate="TSOC" pin="!CS"/>
 <wire x1="165.1" y1="81.28" x2="182.88" y2="81.28" width="0.1524" layer="91"/>
 <label x="182.88" y="81.28" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J14" gate="G$1" pin="9"/>
+<wire x1="129.54" y1="185.42" x2="119.38" y2="185.42" width="0.1524" layer="91"/>
+<label x="119.38" y="185.42" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D9" class="0">
@@ -26383,6 +26403,13 @@ Open Source Sockets for IoT</text>
 <pinref part="J12" gate="G$1" pin="1"/>
 <pinref part="TSOC" gate="TSOC" pin="IO1"/>
 <wire x1="172.72" y1="71.12" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="!JTAG" class="0">
+<segment>
+<pinref part="J14" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="195.58" x2="119.38" y2="195.58" width="0.1524" layer="91"/>
+<label x="119.38" y="195.58" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
