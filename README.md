@@ -32,6 +32,9 @@ which is implemented as an assembly/build time option.
 ---------------------------------------
 ## Example Applications
 
+[![thingSoC TSOC_NEOLED](https://github.com/thingSoC/TSOC_RS485_EM/blob/master/TSOC_RS485_EM/images/product/TSOC_RS485_EM_wiring.jpg?raw=true)TSOC_RS485_EM Example Wiring](https://github.com/thingSoC/TSOC_RS485_EM/)
+
+
 * [Modbus Weather Sensor](http://www.mikroe.com/click/weather/) BOSCH BME280 Temp, Humidity, Air Pressure
 * [Modbus Methane Sensor](http://www.mikroe.com/click/methane/) MQ-4 Sensor for Methane (CH4) 
 * [Modbus Air Quality Sensor](http://www.mikroe.com/click/air-quality/) MQ-135 Sensor for Harmful Gasses
